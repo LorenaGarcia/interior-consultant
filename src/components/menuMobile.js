@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -108,7 +108,6 @@ const MenuMobile = () => {
 
   const ShowMenu = () => {
     setOpen(!open);
-    console.log("click", open);
     return <Menu open={open} />;
   };
 
