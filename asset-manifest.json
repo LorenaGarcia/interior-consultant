@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/interior-consultant/static/css/main.b6183b45.chunk.css",
+    "main.js": "/interior-consultant/static/js/main.4f35aa67.chunk.js",
+    "main.js.map": "/interior-consultant/static/js/main.4f35aa67.chunk.js.map",
+    "runtime-main.js": "/interior-consultant/static/js/runtime-main.220ae423.js",
+    "runtime-main.js.map": "/interior-consultant/static/js/runtime-main.220ae423.js.map",
+    "static/js/2.baa359d9.chunk.js": "/interior-consultant/static/js/2.baa359d9.chunk.js",
+    "static/js/2.baa359d9.chunk.js.map": "/interior-consultant/static/js/2.baa359d9.chunk.js.map",
+    "index.html": "/interior-consultant/index.html",
+    "precache-manifest.d26dcc2a525342062252ae2e487fb7ee.js": "/interior-consultant/precache-manifest.d26dcc2a525342062252ae2e487fb7ee.js",
+    "service-worker.js": "/interior-consultant/service-worker.js",
+    "static/css/main.b6183b45.chunk.css.map": "/interior-consultant/static/css/main.b6183b45.chunk.css.map",
+    "static/js/2.baa359d9.chunk.js.LICENSE.txt": "/interior-consultant/static/js/2.baa359d9.chunk.js.LICENSE.txt",
+    "static/media/photo1.png": "/interior-consultant/static/media/photo1.e751e259.png",
+    "static/media/photo2.png": "/interior-consultant/static/media/photo2.10c907a4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.220ae423.js",
+    "static/js/2.baa359d9.chunk.js",
+    "static/css/main.b6183b45.chunk.css",
+    "static/js/main.4f35aa67.chunk.js"
+  ]
+}
