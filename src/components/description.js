@@ -5,7 +5,7 @@ export const Container = styled.div`
   margin-top: 10px;
 
   @media (min-width: 481px) and (max-width: 768px) {
-    margin-top: -60px;
+    /* margin-top: -60px; */
   }
 `;
 

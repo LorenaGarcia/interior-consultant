@@ -10,7 +10,7 @@ export const Container = styled.header`
   display: grid;
   justify-content: center;
   grid-template-columns: 46% 2% 46%;
-  grid-gap: 10px;
+  grid-gap: 2rem;
   grid-template-areas:
     "header header header header"
     "main . sidebar sidebar"
@@ -71,6 +71,7 @@ export const GridSidebar = styled.div`
 
 export const GridFooter = styled.footer`
   grid-area: footer;
+  padding: 2rem;
 `;
 
 const Home = () => {
