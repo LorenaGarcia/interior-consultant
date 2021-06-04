@@ -1,7 +1,6 @@
-import React from "react";
 import styled from "styled-components";
 
-export const Container = styled.div`
+const Container = styled.div`
   margin-top: 10px;
 
   @media (min-width: 481px) and (max-width: 768px) {
@@ -9,7 +8,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Title = styled.p`
+const Title = styled.p`
   font-family: Lora;
   font-style: normal;
   font-weight: normal;
@@ -28,7 +27,7 @@ export const Title = styled.p`
   }
 `;
 
-export const SubTitle = styled.p`
+const SubTitle = styled.p`
   font-family: Montserrat;
   font-style: normal;
   font-weight: 300;
@@ -47,7 +46,7 @@ export const SubTitle = styled.p`
   }
 `;
 
-export const More = styled.p`
+const More = styled.p`
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -70,17 +69,4 @@ export const More = styled.p`
   }
 `;
 
-const Description = () => {
-  return (
-    <Container>
-      <Title>Modern interior</Title>
-      <SubTitle>
-        A full-Service residential & commercial interior design and staging
-        company offering professional organizing & eco-services.
-      </SubTitle>
-      <More>Read more &#8594;</More>
-    </Container>
-  );
-};
-
-export default Description;
+export { Container, Title, SubTitle, More };

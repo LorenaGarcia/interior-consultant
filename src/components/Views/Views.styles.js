@@ -1,9 +1,6 @@
-import React from "react";
 import styled from "styled-components";
-import Image1 from "../images/photo1.png";
-import Image2 from "../images/photo2.png";
 
-export const Container = styled.div`
+const Container = styled.div`
   margin: 10px;
   text-align: center;
 
@@ -16,12 +13,12 @@ export const Container = styled.div`
   }
 `;
 
-export const Image = styled.img`
+const Image = styled.img`
   margin-right: 10px;
   width: 100%;
 `;
 
-export const ContainerFloat = styled.div`
+const ContainerFloat = styled.div`
   margin-top: -70px;
   width: 300px;
   background-color: #181719;
@@ -34,23 +31,23 @@ export const ContainerFloat = styled.div`
   }
 `;
 
-export const ContainerImage = styled.div`
+const ContainerImage = styled.div`
   float: left;
   margin-left: 20px;
   margin-top: 10px;
 `;
 
-export const ImageUser = styled.img`
+const ImageUser = styled.img`
   width: 50px;
   border-radius: 50px;
 `;
 
-export const ContainerText = styled.div`
+const ContainerText = styled.div`
   text-align: left;
   margin-left: 80px;
 `;
 
-export const Name = styled.p`
+const Name = styled.p`
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -69,7 +66,7 @@ export const Name = styled.p`
   }
 `;
 
-export const Description = styled.p`
+const Description = styled.p`
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -88,7 +85,7 @@ export const Description = styled.p`
   }
 `;
 
-export const TextFooter = styled.p`
+const TextFooter = styled.p`
   margin-top: 30px;
   margin-left: 20px;
   width: 80%;
@@ -111,22 +108,14 @@ export const TextFooter = styled.p`
   }
 `;
 
-const Views = () => {
-  return (
-    <Container>
-      <Image src={Image1} />
-      <ContainerFloat>
-        <ContainerImage>
-          <ImageUser src={Image2} />
-        </ContainerImage>
-        <ContainerText>
-          <Name>Aliza Webber</Name>
-          <Description>Interior designer</Description>
-        </ContainerText>
-        <TextFooter>Designed in 2020 by Aliza Webber</TextFooter>
-      </ContainerFloat>
-    </Container>
-  );
+export {
+  Container,
+  Image,
+  ContainerFloat,
+  ContainerImage,
+  ImageUser,
+  ContainerText,
+  Name,
+  Description,
+  TextFooter,
 };
-
-export default Views;

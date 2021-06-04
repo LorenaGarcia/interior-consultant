@@ -1,16 +1,12 @@
-import React from "react";
 import styled from "styled-components";
-import MenuMobile from "./menuMobile";
 
-export const Container = styled.div`
-  margin-top: 10px;
-`;
+const Container = styled.div``;
 
-export const ContainerLeft = styled.div`
+const ContainerLeft = styled.div`
   float: left;
 `;
 
-export const ContainerRight = styled.div`
+const ContainerRight = styled.div`
   float: right;
   display: flex;
   flex-flow: row wrap;
@@ -32,7 +28,7 @@ export const ContainerRight = styled.div`
   }
 `;
 
-export const ContainerRightMobile = styled.div`
+const ContainerRightMobile = styled.div`
   float: right;
   flex-flow: row wrap;
   justify-content: flex-end;
@@ -53,7 +49,7 @@ export const ContainerRightMobile = styled.div`
   }
 `;
 
-export const TextRight = styled.div`
+const TextRight = styled.div`
   vertical-align: middle;
   height: 20px;
   padding: 8px;
@@ -67,33 +63,21 @@ export const TextRight = styled.div`
   color: #ffffff;
 `;
 
-export const RowMenu = styled.div`
+const RowMenu = styled.div`
   padding: 0.5em;
 `;
 
-export const RowMenuCheck = styled.div`
+const RowMenuCheck = styled.div`
   padding: 0.5em;
   font-weight: bold;
 `;
 
-const Menu = () => {
-  return (
-    <Container>
-      <ContainerLeft>
-        <TextRight>This Interior</TextRight>
-      </ContainerLeft>
-      <ContainerRight>
-        <RowMenuCheck>Home</RowMenuCheck>
-        <RowMenu>Collection</RowMenu>
-        <RowMenu>About</RowMenu>
-        <RowMenu>Contact</RowMenu>
-      </ContainerRight>
-
-      <ContainerRightMobile>
-        <MenuMobile />
-      </ContainerRightMobile>
-    </Container>
-  );
+export {
+  Container,
+  ContainerLeft,
+  ContainerRight,
+  ContainerRightMobile,
+  TextRight,
+  RowMenu,
+  RowMenuCheck,
 };
-
-export default Menu;

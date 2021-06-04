@@ -1,7 +1,6 @@
-import React, { useState } from "react";
 import styled from "styled-components";
 
-export const Container = styled.div`
+const Container = styled.div`
   z-index: 2;
   font-family: Montserrat;
   font-style: normal;
@@ -11,7 +10,7 @@ export const Container = styled.div`
   color: #ffffff;
 `;
 
-export const StyledMenu = styled.nav`
+const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,7 +47,7 @@ export const StyledMenu = styled.nav`
   }
 `;
 
-export const StyledBurger = styled.button`
+const StyledBurger = styled.button`
   top: 5%;
   left: 2rem;
   display: flex;
@@ -90,37 +89,4 @@ export const StyledBurger = styled.button`
   }
 `;
 
-const Menu = ({ open }) => {
-  return (
-    <StyledMenu open={open}>
-      <a className="TextBold" href="/">
-        Home
-      </a>
-      <a href="/">Collection</a>
-      <a href="/">About</a>
-      <a href="/">Contact</a>
-    </StyledMenu>
-  );
-};
-
-const MenuMobile = () => {
-  const [open, setOpen] = useState(false);
-
-  const ShowMenu = () => {
-    setOpen(!open);
-    return <Menu open={open} />;
-  };
-
-  return (
-    <Container>
-      <Menu open={open} />
-      <StyledBurger open={open} onClick={() => ShowMenu()}>
-        <div />
-        <div />
-        <div />
-      </StyledBurger>
-    </Container>
-  );
-};
-
-export default MenuMobile;
+export { Container, StyledMenu, StyledBurger };
