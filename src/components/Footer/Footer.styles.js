@@ -7,6 +7,7 @@ const Container = styled.div`
   font-size: 14px;
   color: #a9a9a9;
   text-align: center;
+  height: 3rem;
 `;
 
 const Hr = styled.hr`

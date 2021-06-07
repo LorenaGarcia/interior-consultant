@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Container = styled.header`
-  min-height: 100vh;
   display: grid;
+  height: 100%;
   justify-content: center;
   grid-template-columns: 46% 1fr;
   grid-template-rows: 1fr;

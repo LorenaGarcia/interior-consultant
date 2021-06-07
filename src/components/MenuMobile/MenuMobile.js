@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, StyledMenu, StyledBurger } from "./MenuMobile.styles";
 
-const MenuMobile = () => {
-  const [open, setOpen] = useState(false);
-
+const MenuMobile = ({ open, setOpen }) => {
   return (
     <Container>
       {open && (

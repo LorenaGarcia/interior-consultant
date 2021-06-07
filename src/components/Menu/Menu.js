@@ -10,7 +10,7 @@ import {
 } from "./Menu.styles";
 import { MenuMobile } from "../MenuMobile";
 
-const Menu = () => {
+const Menu = ({ open, setOpen }) => {
   return (
     <Container>
       <ContainerLeft>
@@ -24,7 +24,7 @@ const Menu = () => {
       </ContainerRight>
 
       <ContainerRightMobile>
-        <MenuMobile />
+        <MenuMobile open={open} setOpen={setOpen} />
       </ContainerRightMobile>
     </Container>
   );
