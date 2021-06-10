@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Container = styled.header`
   display: grid;
   height: 100vh;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   justify-content: center;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
@@ -17,23 +17,23 @@ const Header = styled.header`
   grid-area: header;
   margin: 1rem 3rem;
   @media (max-width: 480px) {
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
   }
 
   @media (min-width: 481px) and (max-width: 767px) {
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
   }
 `;
 
 const Main = styled.div`
   grid-area: main;
-  margin: 1rem 3rem;
+  margin: 0rem 3rem;
   @media (max-width: 480px) {
-    margin: 2rem 1rem;
+    margin: 0rem 1rem;
   }
 
   @media (min-width: 481px) and (max-width: 767px) {
-    margin: 2rem 1rem;
+    margin: 0rem 1rem;
   }
 `;
 

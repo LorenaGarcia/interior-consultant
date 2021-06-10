@@ -2,10 +2,6 @@ import styled from "styled-components";
 
 const Container = styled.div`
   margin-top: 10px;
-
-  @media (min-width: 481px) and (max-width: 768px) {
-    /* margin-top: -60px; */
-  }
 `;
 
 const Title = styled.p`
@@ -15,6 +11,7 @@ const Title = styled.p`
   font-size: 48px;
   line-height: 61px;
   color: #ffffff;
+  margin: 0px;
 
   @media (max-width: 480px) {
     font-size: 36px;
